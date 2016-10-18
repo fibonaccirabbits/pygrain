@@ -3,7 +3,7 @@ Short guide to pyGRAIN.
 Notice:
 -------
 pyGRAIN works only on linux (pygrain_lnx) and mac (pygrain_mac) machines. 
-please provides read, write and execute permission to the main program pygrain.py and
+please provide read, write and execute permissions to the main program pygrain.py and
 to the directory infiles by running the following in a linux terminal (assuming
 you are in pygrain directory):
 
