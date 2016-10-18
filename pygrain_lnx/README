@@ -18,7 +18,7 @@ prot.pdb file(s) stored in distinct directory(ies) within the models directory,
 eg. models/1/prot.pdb, models/2/prot.pdb
 
 
-How to use pygrain:
+How to use:
 -------------------
 
 1. Atomisitic to coarse grained represenation.
@@ -43,5 +43,14 @@ python prepare2.py
 
 This sript looks for system.gor file in models directory and performs the
 procedures above sequentially. This step utilizes GROMACS
+
+
+3. Reseting models.
+-------------------
+To reset models run the reset.py script.
+
+python reset.py
+
+This script keeps the prot.pdb file and removes the rest.
 
 
