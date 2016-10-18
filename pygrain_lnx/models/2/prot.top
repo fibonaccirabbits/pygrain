@@ -1,0 +1,15 @@
+#include "martini.itp"
+    
+
+  
+#include "Protein_A.itp"
+#include "Protein_B.itp"
+    
+[ system ]
+; name
+Martini system from /home/mat/e1e2_2016/pygrain/models/2/prot.pdb
+    
+[ molecules ]
+; name        number
+Protein_A 	 1
+Protein_B 	 1

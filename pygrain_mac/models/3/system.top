@@ -1,0 +1,22 @@
+#include "/Users/rahmadakbar/toy/e1e2_2016/pygrain_mac/infiles/1martini_v2.1.itp"
+#include "/Users/rahmadakbar/toy/e1e2_2016/pygrain_mac/infiles/2martini_v2.0_DPPC_01.itp"
+#include "/Users/rahmadakbar/toy/e1e2_2016/pygrain_mac/infiles/3martini_v2.0_ions.itp"
+    
+
+  
+#include "Protein_A.itp"
+#include "Protein_B.itp"
+    
+[ system ]
+; name
+Martini system from /Users/rahmadakbar/toy/e1e2_2016/pygrain_mac/models/3/prot.pdb
+    
+[ molecules ]
+; name        number
+Protein_A 	 1
+Protein_B 	 1
+DPPC           159
+DPPC           160
+W           4722
+NA               61
+CL               60
