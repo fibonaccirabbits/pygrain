@@ -5,17 +5,20 @@ Notice:
 pyGRAIN works only on linux (pygrain_lnx) and mac (pygrain_mac) machines. 
 please provide read, write and execute permissions to the main program pygrain.py and
 to the directory infiles by running the following in a linux terminal (assuming
-you are in pygrain directory):
+you are in a pygrain directory):
 
 chmod 755 pygrain.py
 chmod 755 infiles/*
 
 Prerequisite:
 -------------
-DSSP
-GROMACS 5.0 and above (uses the new gmx syntax)
-prot.pdb file(s) stored in distinct directory(ies) within the models directory,
-eg. models/1/prot.pdb, models/2/prot.pdb
+1.DSSP
+2.GROMACS 5.0 and above (uses the new gmx syntax)
+3.prot.pdb file(s) stored in distinct directory(ies) within the models directory,
+  eg. models/1/prot.pdb, models/2/prot.pdb
+
+IMPORTANT: 
+mac users please install DSSP and GROMACS through Fink (http://www.finkproject.org)
 
 
 How to use:
@@ -36,7 +39,7 @@ files. This step utilizes martini and insane.
 
 2. Minimization and equilibration.
 ----------------------------------
-To add ions and perform minimizations, NVT and NPT  run the
+To add ions and to perform minimizations, NVT and NPT  run the
 prepare2.py script.
 
 python prepare2.py
