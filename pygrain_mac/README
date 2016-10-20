@@ -10,6 +10,7 @@ you are in a pygrain directory):
 chmod 755 pygrain.py
 chmod 755 infiles/*
 
+
 Prerequisite:
 -------------
 1.DSSP
@@ -19,13 +20,14 @@ Prerequisite:
 
 IMPORTANT: 
 mac users please install DSSP and GROMACS through Fink (http://www.finkproject.org)
+pyGRAIN was tested on GROMACS 5.1.1
 
 
 How to use:
--------------------
+-----------
 
 1. Atomisitic to coarse grained represenation.
----------------------------------------------
+----------------------------------------------
 To convert  atomistic files to their coresponding coarse grained
 representations run the prepare1.py script:
 
@@ -44,7 +46,7 @@ prepare2.py script.
 
 python prepare2.py
 
-This sript looks for system.gor file in models directory and performs the
+This sript looks for system.gro file in models directory and performs the
 procedures above sequentially. This step utilizes GROMACS
 
 

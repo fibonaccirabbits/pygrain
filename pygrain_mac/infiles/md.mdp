@@ -153,7 +153,7 @@ nsttcouple               = -1
 nh-chain-length          = 10
 print-nose-hoover-chain-variables = no
 ; Groups to couple separately
-tc-grps                  = Protein DPPC	W
+tc-grps                  = Protein DPPC	W_ION
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 0.5	0.5 0.5
 ref_t                    = 323 	323 323
